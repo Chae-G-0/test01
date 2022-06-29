@@ -14,7 +14,6 @@
 
 #header .container img {
     width: 120px;
-    height: 55px;
 }
 
 #header .container ul {
@@ -130,7 +129,6 @@
 
 .mainProduct .mainslider .slider figure {
     position: relative;
-    height: 400px;
     padding: 0 15px;
 }
 
@@ -274,7 +272,6 @@
 
 #main .mainValue {
     background: url(../img/main_visual02.jpg);
-    height: 545px;
     padding: 100px 0;
 }
 
@@ -334,10 +331,7 @@
 
 #footer {
     background: #222;
-    height: 220px;
 }
-
-#footer .top {}
 
 #footer .container {
     width: 1200px;
@@ -351,11 +345,10 @@
     line-height: 100px;
 }
 
-
 #footer .container .bottom {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 0 0 30px 0;
 }
 
 #footer .container .footer {
@@ -365,7 +358,7 @@
     font-weight: 300;
 }
 
-#footer .container .bottom ul {
+#footer .container .bottom .icon ul {
     display: flex;
     gap: 20px;
 }
@@ -373,5 +366,5 @@
 #footer .container p {
     font-size: 15px;
     font-weight: 300;
-    line-height: 50px;
+    padding: 0 0 30px 0;
 }
